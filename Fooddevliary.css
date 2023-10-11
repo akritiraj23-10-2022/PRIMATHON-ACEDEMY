@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img{
+    padding: 30px;
+}
+
+.navigation{
+    font-size: 20px;
+    display: flex;
+    column-gap: 70px;
+    list-style: none;
+    padding: 50px;
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: red;
+}
+
+.heroSection{
+    background-image: url("./images/Rectangle\ 48.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.upperSection h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+.upperSection h1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    line-height: 90px;
+    
+}
+.upperSection h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    color: white;
+}
+
+.heroSection .btnWrapper button:nth-of-type(1){
+    width: 236px;
+    height: 50px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px #B7322733;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    border: none;
+    margin: 45px;
+}
+
+.heroSection .btnWrapper button:nth-of-type(2){
+    width: 236px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:transparent;
+    box-shadow: 0px 10px 30px 0px #B7322733;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    border: 1px solid white;
+    margin: 45px;
+    
+}
+.mobileImageWrapper{
+    margin-top: -270px;
+    display: flex;
+    justify-content: center;
+    flex-direction:;
+
+}
+.textLine p{
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin: 50px;
+}
+.textLine hr{
+    width: 60%;
+    margin-left: 350px;
+}
+
+.section2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgContent h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: red;
+
+}
+
+.imgContent h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+}
+
+.imgContent h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 180px;
+    margin-top: -250px;
+    margin-left: 180px;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+}
+
+.underSection{
+    background-image: url("./images/last-image.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.lastSection{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+}
+
+.lastSection h4{
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+margin: 50px;
+}
+
+.underSection .btnWrapper button:nth-of-type(1){
+    width: 142px;
+    height: 64px;
+    padding: 18px 31px 18px 31px;
+    border-radius: 10px;
+    gap: 10px;
+    background: #FA4A0C;
+    color: white;
+    border: none;
+    margin: 50px;
+    font-size: 18px;
+}
+
+.underSection .btnWrapper button:nth-of-type(2){
+    width: 142px;
+    height: 64px;
+    padding: 18px 31px 18px 31px;
+    border-radius: 10px;
+    gap: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    padding: 40px;
+}
+footer p{
+    padding: 40px;
+    margin-top: 40px;
+}
