@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: end;
+    column-gap: 100px;
+    list-style: none;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+    background-color:whitesmoke;
+    padding: 70px 140px;
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.textWrapper h1{
+    font-family: Heebo;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.textWrapper p{
+    font-family: Heebo;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.textWrapper button{
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background: #FF6464;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.section2{
+    background-color:rgb(174, 196, 216);
+    padding: 70px 140px;
+}
+.recentAndview{
+    display: flex;
+    flex-direction: row;
+    row-gap: 45px;
+}
+.recentAndview h3{
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.recentAndview p{
+    margin-left: 700px;
+    padding: 20px;
+}
+.cardWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: none;
+    padding: 30px;
+    margin: 16px;
+    width: 418px;
+    height: 295px;
+    border-radius: 4px;
+
+}
+.card h2{
+    font-family: Heebo;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 374px;
+    height: 85px;
+
+}
+.card p{
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 20px;
+}
+.under h3{
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 70px 140px;
+}
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 140px;
+    
+}
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.textbox h2{
+    font-family: Heebo;
+font-size: 33px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+color:  #21243D;
+
+}
+p .year{
+    width: 50px;
+    height: 29px;
+    border: 3px solid black;
+    border-radius: 16px;
+    background-color: #21243D;
+    color: white;
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+p .span-text{
+    font-family: Heebo;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+margin-left: 25px;
+
+}
+
+.textbox p{
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #21243D;
+}
+footer {
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   padding: 20px;
+}
+footer p{
+    font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.footer p{
+    font-family: Heebo;
+font-size: 20px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+}
